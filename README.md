@@ -14,6 +14,7 @@ The results plot include a 2D chart the centroids and the points of each cluster
 - *Chicago Crime Locations* dataset:
 
 Location of all the clusters by colors in a 2D Map:
+
 ![results_scores](./pictures/image5_kmeans.JPG)
 
 ![results_scores](./pictures/image4_bisection.JPG)
