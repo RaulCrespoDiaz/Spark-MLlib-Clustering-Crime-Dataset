@@ -12,3 +12,5 @@ The results plot include a 2D chart the centroids and the points of each cluster
 
 ![results_scores](./pictures/image1.JPG)
 
+![results_scores](./pictures/image2.JPG)
+
