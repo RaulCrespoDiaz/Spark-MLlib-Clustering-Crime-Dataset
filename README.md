@@ -24,7 +24,7 @@ The results plot include a 2D chart the centroids and the points of each cluster
 ![results_scores](./pictures/image1.JPG)
 
 - Location of all the clusters by colors in a chicago Map with kmeans(blue) and bisection(green):
-The radious of the circle is scaled by size of the cluster with this function:
+The radious of the circle is scaled by size of the cluster with the remap function. We use folium library for drawing the map.
 
 ```python
 #This function scale a point x in (in_min,in_max)-> y in (out_min,out_max))
@@ -59,10 +59,9 @@ for center in centers:
 
 
 
-- Location of all the clusters by colors in a chicago Map with kmeans(blue) and bisection(greens):
-The radious of the circle is scaled by size of the cluster
-
 ![results_scores](./pictures/image2.JPG)
 
 ![results_scores](./pictures/image3.JPG)
+
+
 
