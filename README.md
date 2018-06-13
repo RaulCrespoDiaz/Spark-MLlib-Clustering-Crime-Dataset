@@ -4,6 +4,8 @@ Using as input data the crime of Chicago dataset, we have developed a Jupyter no
 - Kmeans Model
 - Bisection Kmeans Model
 
+the Chicago Dataset can be located in: [Chicago dataset](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2).
+
 The results plot include a 2D chart the centroids and the points of each cluster. These information has been also plotted on top of a map of Chicago.
 
 
