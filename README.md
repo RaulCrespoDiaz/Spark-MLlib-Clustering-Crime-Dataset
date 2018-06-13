@@ -57,10 +57,12 @@ for center in centers:
 ```
 
 
-![results_scores](./pictures/image2.JPG)
+
 
 - Location of all the clusters by colors in a chicago Map with kmeans(blue) and bisection(greens):
 The radious of the circle is scaled by size of the cluster
+
+![results_scores](./pictures/image2.JPG)
 
 ![results_scores](./pictures/image3.JPG)
 
