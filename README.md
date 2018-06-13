@@ -11,18 +11,23 @@ The results plot include a 2D chart the centroids and the points of each cluster
 
 **Summary of results**
 
-- *Chicago Crime Locations* dataset:
-
-Location of all the clusters by colors in a 2D Map:
+- Result Scores for Kmeans with k=6:
 
 ![results_scores](./pictures/image5_kmeans.JPG)
 
+- Result Scores for bisection Kmeans with k=6:
+
 ![results_scores](./pictures/image4_bisection.JPG)
 
+- Location of all the clusters by colors in a 2D Map with kmeans:
 
 ![results_scores](./pictures/image1.JPG)
 
+- Location of all the clusters by colors in a chicago Map with kmeans(blue) and bisection(green):
+
 ![results_scores](./pictures/image2.JPG)
+
+- Location of all the clusters by colors in a chicago Map with kmeans(blue) and bisection(greens):
 
 ![results_scores](./pictures/image3.JPG)
 
