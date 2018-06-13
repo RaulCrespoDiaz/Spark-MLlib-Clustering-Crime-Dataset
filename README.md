@@ -24,7 +24,38 @@ The results plot include a 2D chart the centroids and the points of each cluster
 ![results_scores](./pictures/image1.JPG)
 
 - Location of all the clusters by colors in a chicago Map with kmeans(blue) and bisection(green):
-The radious of the circle is scaled by size of the cluster
+The radious of the circle is scaled by size of the cluster with this function:
+
+```python
+#This function scale a point x in (in_min,in_max)-> y in (out_min,out_max))
+#we will use this function to scale the radious with the list of predictions
+def remap(x, in_min, in_max, out_min, out_max):
+  return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min
+```
+
+and called here:
+
+```python
+#Painting the markers and circles in the map
+#for Kmeans clustering
+i=0
+for center in centers:
+    folium.Marker(
+        location = center,
+        popup="Centroid:"+str(i),
+        icon=folium.Icon(color='blue')).add_to(m)
+    
+    folium.Circle(
+        radius=remap(list_prediction[i],in_min,in_max,out_min,out_max),
+        location=center,
+        color='#3186cc',
+        fill=True,
+        fill_color='#3186cc'
+    ).add_to(m)
+    
+    i+=1
+```
+
 
 ![results_scores](./pictures/image2.JPG)
 
