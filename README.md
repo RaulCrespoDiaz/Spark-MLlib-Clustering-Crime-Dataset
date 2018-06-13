@@ -10,7 +10,9 @@ The results plot include a 2D chart the centroids and the points of each cluster
 
 
 **Summary of results**
+
 - *Chicago Crime Locations* dataset:
+
 ![results_scores](./pictures/image5_kmeans.JPG)
 
 ![results_scores](./pictures/image4_bisection.JPG)
